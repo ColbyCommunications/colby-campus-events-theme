@@ -1,6 +1,6 @@
-# Colby Base Theme
+# Colby Campus Events Theme
 
-This is the Colby College default WordPress theme starter kit based on [Sage](https://roots.io/sage/). Included is Colby's base set of brand styling as well as re-usable templates and functionality.
+This is the Colby College theme for formal campus events, Commencement, Reunion, Convocation, etc. It sets up default templates for these types of large events. This theme is based on [colby-base-theme](https://github.com/ColbyCommunications/colby-base-theme)
 
 ## Features
 
@@ -29,14 +29,14 @@ Composer.php
 ```php
 "require": {
     ...
-    "colbycommunications/colby-base-theme": "dev-master",
+    "colbycommunications/colby-campus-events-theme": "dev-master",
     ...
 },
 "repositories": [
     ...
     {
         "type": "git",
-        "url": "https://github.com/ColbyCommunications/colby-base-theme"
+        "url": "https://github.com/ColbyCommunications/colby-events-theme"
     },
     {
         "type": "composer",

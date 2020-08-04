@@ -1,8 +1,8 @@
 {
-    "name": "colbycommunications/colby-base-theme",
+    "name": "colbycommunications/colby-campus-events-theme",
     "type": "wordpress-theme",
     "license": "MIT",
-    "description": "Colby WordPress starter theme with a modern development workflow",
+    "description": "Colby WordPress theme for formal campus events",
     "authors": [
         {
             "name": "Brandon Waltz",
