@@ -11,11 +11,13 @@
     @endif
   </div>
 </nav>
-<div class="jumbotron" style="background-image: url('https://www.colby.edu/celebrate2020/images/hats-and-miller-Comm2016-162_optimized.jpg'); height: 100vh; background-size: cover;     display: flex;
-    align-items: center;
-    text-align: center;">
-<div class="{!! Header::getNavContainerOption() !!}">
-<h1 class="display-4">ORIENTATION</h1>
-  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-      </div>
-</div>
+<?php if (has_post_thumbnail( get_the_ID() )): ?>
+  <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'single-post-thumbnail' ); ?>
+    <div class="jumbotron" style="background-image: url('<?php echo $image[0]; ?>');">
+        <div class="{!! Header::getNavContainerOption() !!}">
+            <h1 class="display-4">ORIENTATION</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+        </div>
+    </div>
+<?php endif; ?>
+

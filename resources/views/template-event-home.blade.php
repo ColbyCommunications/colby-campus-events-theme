@@ -1,5 +1,5 @@
 {{--
-    Template Name: Colby Campus Events Theme: Events Home
+    Template Name: Colby Campus Events Theme: Events Home (Orientation)
 --}}
 
 @extends('layouts.event-home')
