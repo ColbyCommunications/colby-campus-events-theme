@@ -1,5 +1,35 @@
+$events-background-img-treatment: rgba(0, 40, 120, 0.8);
+
+// put navbar back in DOM while editing
+.elementor-editor-active .navbar {
+    position: relative !important;
+}
+
+.jumbotron {
+    > div {
+        color: white;
+        position: relative;
+        z-index: 1000;
+    }
+
+    &:after {
+        background: $events-background-img-treatment;
+        content: '';
+        height: 100%;
+        left: 0;
+        opacity: 0.96;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}
+
 .navbar {
-    background-color: rgba(0, 40, 120, 0.8);
+    border-bottom: 1px solid #fff;
+}
+.scrolled {
+    background-color: $events-background-img-treatment;
+    transition: all 0.1s ease-in;
 }
 
 .navbar-toggler:focus,
