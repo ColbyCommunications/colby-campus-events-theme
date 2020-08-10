@@ -15,7 +15,7 @@
   <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'single-post-thumbnail' ); ?>
     <div class="jumbotron" style="background-image: url('<?php echo $image[0]; ?>');">
         <div class="{!! Header::getNavContainerOption() !!}">
-            <h1 class="display-4">ORIENTATION</h1>
+            <h1>ORIENTATION</h1>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
         </div>
     </div>
