@@ -6,6 +6,8 @@ $events-background-img-treatment: rgba(0, 40, 120, 0.8);
 }
 
 .jumbotron {
+    border-radius: 0;
+    position: relative;
     > div {
         color: white;
         position: relative;
@@ -15,7 +17,7 @@ $events-background-img-treatment: rgba(0, 40, 120, 0.8);
     &:after {
         background: $events-background-img-treatment;
         content: '';
-        height: 100%;
+        height: 100vh;
         left: 0;
         opacity: 0.96;
         position: absolute;
