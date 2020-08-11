@@ -18,7 +18,7 @@
             <h1>ORIENTATION</h1>
             <p class="lead">“As your time on campus draws near, your first impactful on-campus experience as a new Colby student is an orientation to your new home, our values, and our community expectations.”</p>
             <p class="text-right" style="margin-bottom: 0;">- Karlene Burrell-McRae ’94, Dean of the College</p>
-            <p class="text-right"><a href="/welcome-letter" style="color: #fff;font-size: 0.8rem;text-decoration: underline;">Read Full Letter</a></p>
+            <p class="text-right"><a href="/orientation/welcome-letter" style="color: #fff;font-size: 0.8rem;text-decoration: underline;">Read Full Letter</a></p>
         </div>
     </div>
 <?php endif; ?>
