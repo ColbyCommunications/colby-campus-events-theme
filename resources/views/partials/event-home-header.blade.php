@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark {!! Header::getNavTypeOption() !!}">
+<nav class="homenav navbar fixed-top navbar-expand-lg navbar-dark {!! Header::getNavTypeOption() !!}">
   <div class="{!! Header::getNavContainerOption() !!}">
     <a class="navbar-brand" href="https://www.colby.edu">{!! Header::getBrand() !!}</a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,9 @@
     <div class="jumbotron" style="background-image: url('<?php echo $image[0]; ?>');">
         <div class="{!! Header::getNavContainerOption() !!}">
             <h1>ORIENTATION</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <p class="lead">“As your time on campus draws near, your first impactful on-campus experience as a new Colby student is an orientation to your new home, our values, and our community expectations.”</p>
+            <p class="text-right" style="margin-bottom: 0;">- Karlene Burrell-McRae ’94, Dean of the College</p>
+            <p class="text-right"><a href="/welcome-letter" style="color: #fff;font-size: 0.8rem;text-decoration: underline;">Read Full Letter</a></p>
         </div>
     </div>
 <?php endif; ?>

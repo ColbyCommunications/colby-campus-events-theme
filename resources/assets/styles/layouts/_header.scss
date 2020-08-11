@@ -32,6 +32,10 @@ $events-background-img-treatment: rgba(0, 40, 120, 0.8);
     transition: all 0.1s ease-in;
 }
 
+.innernav {
+    background-color: $events-background-img-treatment;
+}
+
 .navbar-toggler:focus,
 .navbar-toggler:active {
     outline: 0;
