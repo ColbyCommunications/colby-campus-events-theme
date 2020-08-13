@@ -2,7 +2,16 @@
 
 This is the Colby College theme for formal campus events, Commencement, Reunion, Convocation, etc. It sets up default templates for these types of large events. This theme is based on [colby-base-theme](https://github.com/ColbyCommunications/colby-base-theme)
 
-## Features
+## Theme Features
+
+### Templates
+There are two added custom templates `event-home` and `event-inner`.
+
+* event-home - Intended to be a homepage template for large campus events. This template uses a customized version of bootstrap jumbotron. This template has a fixed and sticky navbar, with the body of the page being dynamic WordPress content.
+
+* event-inner - Intended to be an inner template for large campus events. This template has a simple sticky navbar, with the body of the page being dynamic WordPress content.
+
+## Framework Features
 
 -   [Bootstrap 4.\*](https://getbootstrap.com/) for frontend framework
 -   Sass for stylesheets
