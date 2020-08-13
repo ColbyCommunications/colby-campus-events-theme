@@ -28,9 +28,15 @@ $events-background-img-treatment: rgba(0, 40, 120, 0.8);
 
 .navbar {
     border-bottom: 1px solid #fff;
+    background-color: $colby-blue;
 }
+
+.homenav {
+    background-color: transparent;
+}
+
 .scrolled {
-    background-color: $events-background-img-treatment;
+    background-color: $events-background-img-treatment !important;
     transition: all 0.1s ease-in;
 }
 
